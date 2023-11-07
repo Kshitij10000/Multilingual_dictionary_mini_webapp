@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const languageSelect = document.getElementById('languageSelect');
 
     // Replace 'YOUR_API_KEY' with your actual OpenAI API key
-    const apiKey = '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';
+    const apiKey = 'your API key(get it from openai API)';
 
     searchButton.addEventListener('click', () => {
         const word = wordInput.value;
